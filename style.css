@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    color: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 13%;
+}
+.container{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(46, 46, 211);
+}
