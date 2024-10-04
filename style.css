@@ -44,11 +44,11 @@ body{
     justify-content: space-between;
 }
 
-.year, .month, .days{
+.years, .months, .days{
     width: 65px;
     height: 65px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: rgb(9, 9, 9);
     border-radius: 5px;
