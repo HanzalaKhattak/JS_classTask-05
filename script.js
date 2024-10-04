@@ -1,11 +1,16 @@
 function calculateAge(){
     const doB = document.getElementById('input').value;
-    if(!doB){
-        alert("Select a Valid Date of Birth!");
-    }else{
+    if(doB){
         const date = new Date(doB);
         const today = new Date();
-        document.getElementById("year").innerHTML = today.getFullYear() - date.getFullYear();
-        document.getElementById("month").innerHTML = today.getMonth() - date.getMonth();
+        var year = today.getFullYear() - date.getFullYear();
+        var month = today.getMonth() - date.getMonth();
+        var day =  today.getDate() - date.getDate();
+        
+
+    }else{
+        alert("Select a Valid Date of Birth!");
     }     
+    
+
 }
