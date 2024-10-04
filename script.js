@@ -6,5 +6,6 @@ function calculateAge(){
         const date = new Date(doB);
         const today = new Date();
         document.getElementById("year").innerHTML = today.getFullYear() - date.getFullYear();
+        document.getElementById("month").innerHTML = today.getMonth() - date.getMonth();
     }     
 }
